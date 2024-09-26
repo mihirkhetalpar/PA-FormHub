@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="/Img/PA-FormHub-Logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Lemon' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/x-icon" href="/Img/PA-FormHub-Logo.svg">
     <title>PA FormHub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header id="hea">
+        <img src="/Img/PA-FormHub-Logo.png" alt="Logo" id="site-logo">
+        <h1 id="heading-text">PA FormHub</h1>
+        <p>Your one-stop solution for all forms powered by Plumsail.</p>
+    </header>
+
+    <button id="modeToggle" class="mode-toggle">Switch to Dark Mode</button>
+
+    <main>
+        <section id="forms-showcase">
+            <h2>Available Forms</h2>
+            <div class="form-list">
+                <div class="form-card">
+                    <h3>Books Hub - Submit your Book Here</h3>
+                    <p class="pera">Contributions Welcome: Have PDFs of books not yet featured? Share them with us! Your contributions help us expand our library for all users to enjoy. Additionally, if you send us a PDF, we'll convert it into a flipbook and credit you for the contribution on our website.</p>
+                    <a href="/Forms/BSubmit.html" target="_blank" class="F-BTN-Link"><button class="F-BTN">Open Form</button></a>
+                </div>
+
+                <div class="form-card">
+                    <h3>Inventory Management Form</h3>
+                    <p class="pera">Easily track and manage your inventory items with our user-friendly form. Fill in the details about each item, including its category, quantity, price, and any relevant messages. This form allows you to maintain an organized inventory while capturing essential information for future reference.</p>
+                    <a href="/Forms/IM.html" target="_blank" class="F-BTN-Link"><button class="F-BTN">Open Form</button></a>
+                </div>
+
+                <div class="form-card">
+                    <h3>Approval Form</h3>
+                    <p class="pera">This form allows employees to submit leave requests for approval. Please provide accurate details including your leave type, start and end dates, and reason for the leave. Once submitted, your request will be reviewed by your manager, and you will be notified via email once a decision has been made.
+                    </p>
+                    <a href="/Forms/Appro.html" target="_blank" class="F-BTN-Link"><button class="F-BTN">Open Form</button></a>
+                </div>
+                
+                <!-- Add more forms as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 PA FormHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
