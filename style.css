@@ -204,3 +204,12 @@ footer {
     width: 330px;
     height: 330px;
 }
+
+.G{
+    display: block !important;
+    position: absolute;
+    top: 725px;
+    left: 1200px;
+    width: 800px;
+    height: 330px;
+}
